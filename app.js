@@ -3,6 +3,7 @@ let operande = 10;
 let paraOne = document.getElementById('entier');
 paraOne.innerHTML = parseInt(paraOne.innerHTML) * operande;
 
+
 let paraTwo = document.getElementById('flottant');
 paraTwo.innerHTML = parseFloat(paraTwo.innerHTML) * operande + parseInt(paraOne.innerHTML);
 
